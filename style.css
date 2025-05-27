@@ -1,0 +1,671 @@
+.lane-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.lane-page .seo {
+  height: 97px;
+  padding: 120px 100px;
+  background-color: #2a336b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame {
+  align-items: flex-start;
+  margin-top: -95.50px;
+  margin-bottom: -95.50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.lane-page .agibank {
+  position: relative;
+  width: 226px;
+  margin-top: -2.00px;
+  margin-left: -1.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .text-wrapper {
+  font-weight: 900;
+}
+
+.lane-page .span {
+  font-family: "Inter-Regular", Helvetica;
+}
+
+.lane-page .div {
+  padding: 120px 100px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 60, 121, 1) 31%,
+    rgba(59, 71, 143, 1) 65%,
+    rgba(59, 71, 143, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.lane-page .bolinhas {
+  display: flex;
+  width: 106px;
+  height: 44px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.lane-page .ellipse {
+  background-color: #995262;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+
+.lane-page .ellipse-2 {
+  background-color: #b28b76;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+
+.lane-page .ellipse-3 {
+  background-color: #4b6e5a;
+  opacity: 0.5;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+
+.lane-page .servidor-p-blico-uma {
+  position: relative;
+  width: fit-content;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .p {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .frame-3 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 377px;
+}
+
+.lane-page .cara {
+  position: absolute;
+  width: 652px;
+  height: 600px;
+  top: -103px;
+  left: -112px;
+  object-fit: cover;
+}
+
+.lane-page .frame-wrapper {
+  padding: 120px 390px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    360deg,
+    rgba(50, 60, 121, 1) 0%,
+    rgba(59, 71, 143, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.lane-page .aproveite-os-benef-wrapper {
+  display: flex;
+  width: 1699px;
+  margin-left: -513.50px;
+  margin-right: -513.50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lane-page .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .fale-com-um-de {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .text-wrapper-3 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.lane-page .text-wrapper-4 {
+  font-size: 13px;
+}
+
+.lane-page .seo-2 {
+  gap: 42px;
+  padding: 50px 100px;
+  flex: 0 0 auto;
+  background-color: #323c79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .taxas-a-partir-de-wrapper {
+  display: flex;
+  width: 350px;
+  height: 268px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 70px 200px;
+  position: relative;
+  background-color: #4c6f5c;
+  border-radius: 20px;
+}
+
+.lane-page .taxas-a-partir-de {
+  position: relative;
+  width: fit-content;
+  margin-left: -161.00px;
+  margin-right: -161.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .div-wrapper {
+  display: flex;
+  width: 350px;
+  height: 268px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 70px 14px;
+  position: relative;
+  background-color: #4c6f5c;
+  border-radius: 20px;
+}
+
+.lane-page .pagamento-em-at {
+  position: relative;
+  width: fit-content;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .margem-de-contrata-o {
+  position: relative;
+  width: fit-content;
+  margin-top: -9.00px;
+  margin-bottom: -7.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .seo-3 {
+  padding: 50px 100px 10px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 60, 121, 1) 0%,
+    rgba(59, 71, 143, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lane-page .seo-4 {
+  gap: 42px;
+  padding: 20px 100px 120px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(59, 71, 143, 1) 0%,
+    rgba(71, 85, 172, 1) 50%,
+    rgba(92, 111, 223, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .banner-ofertas {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 533.43px;
+}
+
+.lane-page .oferecemos-as {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .seo-5 {
+  padding: 50px 100px 10px;
+  flex: 0 0 auto;
+  background-color: #5c6edf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lane-page .seo-6 {
+  gap: 60px;
+  padding: 120px 100px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(92, 111, 223, 1) 0%,
+    rgba(50, 60, 121, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  gap: 29px;
+  position: relative;
+}
+
+.lane-page .casa {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lane-page .reforma-de-casa {
+  position: relative;
+  width: fit-content;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .frame-8 {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 306px;
+  align-items: flex-end;
+  gap: 73px;
+  position: relative;
+}
+
+.lane-page .ferramt {
+  position: relative;
+  width: 170px;
+  height: 166px;
+  object-fit: cover;
+}
+
+.lane-page .conserto-de-carro {
+  position: relative;
+  width: fit-content;
+  margin-bottom: -28.00px;
+  margin-left: -5.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  gap: 44px;
+  position: relative;
+}
+
+.lane-page .diploma {
+  position: relative;
+  width: 200px;
+  height: 188px;
+  object-fit: cover;
+}
+
+.lane-page .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+}
+
+.lane-page .healthy {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 176px;
+  object-fit: cover;
+}
+
+.lane-page .seo-7 {
+  padding: 10px 100px;
+  flex: 0 0 auto;
+  background-color: #323c79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .quer-agilidade-em {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .seo-8 {
+  padding: 30px 100px 120px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 60, 121, 1) 0%,
+    rgba(34, 43, 94, 1) 96%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .tudo-que-precisa-na {
+  position: relative;
+  width: fit-content;
+  margin-right: -270.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .text-wrapper-7 {
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+}
+
+.lane-page .loira-prof {
+  position: relative;
+  width: 730px;
+  height: 666px;
+}
+
+.lane-page .seo-9 {
+  gap: 42px;
+  padding: 20px 100px 120px;
+  flex: 0 0 auto;
+  background-color: #222b5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.lane-page .illustrative {
+  position: relative;
+  width: 734px;
+  height: 628.86px;
+  object-fit: cover;
+}
+
+.lane-page .frame-11 {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.lane-page .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lane-page .rua-elmano-soares-wrapper {
+  display: flex;
+  width: 443px;
+  height: 131px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 66px;
+  position: relative;
+  background-color: #4c6f5c;
+}
+
+.lane-page .rua-elmano-soares {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
