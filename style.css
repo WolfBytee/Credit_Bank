@@ -7,7 +7,7 @@
 }
 
 .lane-page .seo {
-  height: 97px;
+  height: 50px;
   /*padding: 120px 100px;*/
   background-color: #2a336b;
   display: flex;
@@ -20,8 +20,6 @@
 
 .lane-page .frame {
   align-items: flex-start;
-  /*margin-top: -95.50px;
-  margin-bottom: -95.50px;*/
   display: flex;
   flex-direction: column;
   position: relative;
@@ -78,12 +76,12 @@
   position: relative;
   flex: 1;
   flex-grow: 1;
-  margin-left: 200px;
 }
 
 .lane-page .bolinhas {
   display: flex;
-  width: 106px;
+  /*width: 106px;*/
+  width: 450px;
   height: 44px;
   align-items: center;
   gap: 10px;
@@ -122,7 +120,7 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: 53px;
+  font-size: clamp(2rem,3vw,5rem); /*53px*/
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
