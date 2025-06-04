@@ -330,19 +330,26 @@
     rgba(92, 111, 223, 1) 100%
   );
   display: flex;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
   position: relative;
   align-self: stretch;
   width: 100%;
 }
-
+/*
 .lane-page .banner-ofertas {
   position: relative;
   align-self: stretch;
   width: 100%;
   height: 533.43px;
 }
+*/
+.lane-page .banner-ofertas {
+  width: clamp(300px, 40vw, 600px);
+  left: clamp(-50px, -8vw, -112px);
+}
+
 
 .lane-page .oferecemos-as {
   position: relative;
@@ -351,7 +358,8 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: 53px;
+  /*font-size: 53px;*/
+  font-size: clamp(2rem,3vw,5rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -394,34 +402,33 @@
 .lane-page .seo-6 {
   gap: 60px;
   padding: 120px 100px;
-  flex: 0 0 auto;
+  /*flex: 0 0 auto;*/
   background: linear-gradient(
     180deg,
     rgba(92, 111, 223, 1) 0%,
     rgba(50, 60, 121, 1) 100%
   );
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  position: relative;
-  align-self: stretch;
+  /*position: relative;
+  align-self: stretch;*/
   width: 100%;
 }
 
 .lane-page .frame-7 {
   display: flex;
   flex-direction: column;
-  width: 300px;
   align-items: center;
-  gap: 29px;
+  /*gap: 29px;*/
   position: relative;
 }
 
 .lane-page .casa {
   position: relative;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  width: clamp(140px, 10vw, 200px);
+  height: clamp(140px, 10vw, 200px);
 }
 
 .lane-page .reforma-de-casa {
@@ -431,7 +438,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 40px;
+  font-size: clamp(24px, 4vw, 40px);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -440,30 +447,25 @@
 .lane-page .frame-8 {
   display: flex;
   flex-direction: column;
-  width: 170px;
-  height: 306px;
-  align-items: flex-end;
-  gap: 73px;
+  align-items: center;
+  gap: 29px;
   position: relative;
 }
 
 .lane-page .ferramt {
   position: relative;
-  width: 170px;
-  height: 166px;
-  object-fit: cover;
+  width: clamp(100px, 8vw, 170px);
+  height: clamp(100px, 8vw, 166px);
 }
 
 .lane-page .conserto-de-carro {
   position: relative;
   width: fit-content;
-  margin-bottom: -28.00px;
-  margin-left: -5.00px;
   text-shadow: 0px 4px 4px #00000040;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 40px;
+  font-size: clamp(24px, 4vw, 40px);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -472,17 +474,15 @@
 .lane-page .frame-9 {
   display: flex;
   flex-direction: column;
-  width: 300px;
   align-items: center;
-  gap: 44px;
+  gap: 29px;
   position: relative;
 }
 
 .lane-page .diploma {
   position: relative;
-  width: 200px;
-  height: 188px;
-  object-fit: cover;
+  width: clamp(120px, 10vw, 200px);
+  height: clamp(100px, 9vw, 188px);
 }
 
 .lane-page .text-wrapper-6 {
@@ -492,7 +492,7 @@
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 40px;
+  font-size: clamp(24px, 4vw, 40px);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -501,7 +501,6 @@
 .lane-page .frame-10 {
   display: flex;
   flex-direction: column;
-  width: 200px;
   align-items: center;
   gap: 35px;
   position: relative;
@@ -509,10 +508,9 @@
 
 .lane-page .healthy {
   position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 176px;
-  object-fit: cover;
+  /*align-self: stretch;*/
+  width: clamp(100px, 8vw, 176px);
+  height: clamp(100px, 8vw, 176px);
 }
 
 .lane-page .seo-7 {
