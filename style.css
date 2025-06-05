@@ -6,7 +6,6 @@
   background-color: #ffffff;
 }
 
-
 .lane-page .seo {
   height: 50px;
   background-color: #2a336b;
@@ -29,17 +28,16 @@
 
 .lane-page .agibank {
   position: relative;
-  margin-top: -2.00px;
-  margin-left: -1.00px;
   text-shadow: 0px 4px 4px #00000040;
   -webkit-text-stroke: 1px #ffffff;
   font-family: "Inter-Black", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: clamp(1.7rem,3vw,2.1rem);
+  font-size: clamp(1.3rem,3vw,2.1rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+  padding-left: 3%;
 }
 
 .lane-page .text-wrapper {
@@ -497,18 +495,18 @@
   line-height: normal;
 }
 
-
 .lane-page .seo-8 {
-  padding: 30px 100px 120px;
-  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(20px, 5vw, 60px);
+  padding: clamp(20px, 5vw, 30px) clamp(20px, 8vw, 100px) clamp(40px, 10vw, 120px);
   background: linear-gradient(
     180deg,
     rgba(50, 60, 121, 1) 0%,
     rgba(34, 43, 94, 1) 96%
   );
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -521,7 +519,7 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -536,7 +534,7 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: clamp(2rem,3vw,5rem);
+  font-size: clamp(2rem, 3vw, 5rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -544,22 +542,25 @@
 
 .lane-page .text-wrapper-7 {
   font-family: "Inter-Regular", Helvetica;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.5rem);
 }
 
 .lane-page .loira-prof {
   position: relative;
-  width: clamp(500px, 50vw, 900px);
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .lane-page .seo-9 {
-  gap: 42px;
-  padding: 20px 100px 120px;
-  flex: 0 0 auto;
-  background-color: #222b5e;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: clamp(20px, 5vw, 42px);
+  padding: clamp(20px, 5vw, 50px) clamp(20px, 8vw, 100px) clamp(60px, 10vw, 120px);
+  background-color: #222b5e;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -567,30 +568,29 @@
 
 .lane-page .illustrative {
   position: relative;
-  width: 734px;
-  height: 628.86px;
+  width: clamp(200px, 50%, 734px);
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 .lane-page .frame-11 {
-  align-items: center;
-  gap: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: clamp(10px, 3vw, 20px);
   position: relative;
   flex: 1;
-  flex-grow: 1;
 }
 
 .lane-page .text-wrapper-8 {
   position: relative;
   align-self: stretch;
-  margin-top: -1.00px;
   text-shadow: 0px 4px 4px #00000040;
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: 53px;
+  font-size: clamp(24px, 5vw, 53px);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -598,14 +598,15 @@
 
 .lane-page .rua-elmano-soares-wrapper {
   display: flex;
-  width: 443px;
-  height: 131px;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding: 16px 66px;
-  position: relative;
+  gap: clamp(6px, 2vw, 10px);
+  padding: clamp(8px, 2vw, 16px) clamp(20px, 5vw, 66px);
   background-color: #4c6f5c;
+  border-radius: 12px;
+  max-width: 100%;
+  width: clamp(250px, 60%, 443px);
+  height: auto;
 }
 
 .lane-page .rua-elmano-soares {
@@ -614,8 +615,14 @@
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #ffffff;
-  font-size: 20px;
+  font-size: clamp(14px, 2.5vw, 20px);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .lane-page .seo-9 {
+    flex-direction: column;
+  }
 }
