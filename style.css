@@ -6,7 +6,6 @@
   background-color: #ffffff;
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo {
   height: 50px;
@@ -116,7 +115,7 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: clamp(2rem,3vw,5rem); /*53px*/
+  font-size: clamp(2rem,3vw,5rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -213,11 +212,10 @@
   font-size: 13px;
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-2 {
   display: flex;
-  flex-direction: row; /* lado a lado em telas grandes */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: clamp(20px, 5vw, 42px);
@@ -265,7 +263,6 @@
   }
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-3 {
   padding: 50px 100px 10px;
@@ -292,8 +289,6 @@
   flex: 0 0 auto;
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
-
 .lane-page .seo-4 {
   gap: 42px;
   padding: 20px 100px 120px;
@@ -312,14 +307,7 @@
   align-self: stretch;
   width: 100%;
 }
-/*
-.lane-page .banner-ofertas {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 533.43px;
-}
-*/
+
 .lane-page .banner-ofertas {
   width: clamp(300px, 40vw, 600px);
   left: clamp(-50px, -8vw, -112px);
@@ -333,7 +321,6 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  /*font-size: 53px;*/
   font-size: clamp(2rem,3vw,5rem);
   text-align: center;
   letter-spacing: 0;
@@ -351,8 +338,6 @@
   letter-spacing: 0;
   line-height: normal;
 }
-
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-5 {
   padding: 50px 100px 10px;
@@ -376,12 +361,9 @@
   flex: 0 0 auto;
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
-
 .lane-page .seo-6 {
   gap: 60px;
   padding: 120px 100px;
-  /*flex: 0 0 auto;*/
   background: linear-gradient(
     180deg,
     rgba(92, 111, 223, 1) 0%,
@@ -391,8 +373,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /*position: relative;
-  align-self: stretch;*/
   width: 100%;
 }
 
@@ -400,7 +380,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*gap: 29px;*/
   position: relative;
 }
 
@@ -487,12 +466,10 @@
 
 .lane-page .healthy {
   position: relative;
-  /*align-self: stretch;*/
   width: clamp(100px, 8vw, 176px);
   height: clamp(100px, 8vw, 176px);
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-7 {
   padding: 10px 100px;
@@ -520,7 +497,6 @@
   line-height: normal;
 }
 
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-8 {
   padding: 30px 100px 120px;
@@ -560,7 +536,7 @@
   font-family: "Inter-Black", Helvetica;
   font-weight: 900;
   color: #ffffff;
-  font-size: clamp(2rem,3vw,5rem); /*53px*/
+  font-size: clamp(2rem,3vw,5rem);
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -575,8 +551,6 @@
   position: relative;
   width: clamp(500px, 50vw, 900px);
 }
-
-/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
 
 .lane-page .seo-9 {
   gap: 42px;
