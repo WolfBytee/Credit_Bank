@@ -137,7 +137,7 @@
   flex-grow: 1;
 }
 
-.lane-page .cara {
+.lane-page .cliente1_img {
     width: clamp(300px, 40vw, 600px);
     left: clamp(-50px, -8vw, -112px);
 }
@@ -545,7 +545,7 @@
   font-size: clamp(0.9rem, 2.5vw, 1.5rem);
 }
 
-.lane-page .loira-prof {
+.lane-page .cliente2_img {
   position: relative;
   width: 600px;
   max-width: 100%;
